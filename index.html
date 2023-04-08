@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - To Do List</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Import jQuery, FontAwesome Icons and Open Sans Font -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://kit.fontawesome.com/56942480bb.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- List wrapper -->
+<div id="listWrapper">
+  
+  <!-- List title -->
+  <div id="title">
+    <input id="titleInput" type="text" placeholder="My List" maxlength="21">
+    <i class="fa fa-pencil-alt"></i>
+  </div>
+
+  <div id="separator"></div>
+
+  <!-- To do items -->
+  <div id="itemsWrapper">
+    <div class="item">
+      <!-- New items are created here -->
+    </div>
+  </div>
+
+  <!-- Add a new item -->
+  <div id="addNewItemWrapper">
+    <input type="text" id="addNewItemInput" maxlength="30">
+    <button id="addNewItemBtn"><i class="fas fa-plus"></i></button>
+  </div>
+  
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/DrawSVGPlugin3.min.js'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MorphSVGPlugin3.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
